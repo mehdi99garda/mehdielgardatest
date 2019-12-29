@@ -1,6 +1,6 @@
 		body{
 			background-size: cover;
-			background-color: #00b3b3;
+			background: linear-gradient(to right, #e6fff7, #ffffcc);
 		}
 
 		.cv{
@@ -13,7 +13,7 @@
 			border: 2px #33bbff solid;
 			float: center;
 			text-align: center;
-			background-color: #99ccff;
+			background: linear-gradient(to right, #ffffcc, #ccffff);
 			width: 98%;
 			color: white;
 			margin-left: 1%;
@@ -24,7 +24,7 @@
 			border: 2px #33bbff solid;
 			text-align: center;
 			float: center;
-			background-color: #5c5cd6;
+			background: linear-gradient(to right, #73264d, #5c5cd6);
 			width: 70%;
 			color: white;
 			margin-left: 15%;
