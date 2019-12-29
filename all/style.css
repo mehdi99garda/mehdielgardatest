@@ -1,6 +1,7 @@
 		body{
 			background-size: cover;
 			background: linear-gradient(to right, #e6fff7, #ffffcc);
+			width:100%;
 		}
 
 		.cv{
