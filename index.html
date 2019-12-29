@@ -2,13 +2,18 @@
 <html lang="fr">
 <head>
 	<title>EL Mehdi El Garda</title>
+
+	<meta charset="utf-8">
+
 	<link rel="stylesheet" type="text/css" href="./all/bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="./all/style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="UTF8">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./all/tooplate-style.css">
 </head>
-<body>
+<body class="bg-light">
 	<div class="sticky-top">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +48,7 @@
 		    </ul>
 		    <form class="form-inline my-2 my-lg-0">
 		      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-		      <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+		      <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
 		    </form>
 		  </div>
 		</nav>
@@ -56,7 +61,7 @@
 	<div class="bg-dark firs rounded" >
 		<table class="table table-dark rounded">
 	  		 <tr>
-		      <td><p class="h4 text-center ">Technicien spécialisé en Développement informatique</p></td>
+		      <td><p class="h4 text-center" style="color: white">Technicien spécialisé en Développement informatique</p></td>
 		    </tr>
 		    <tr>
 		    	<td>
@@ -69,7 +74,7 @@
 					    <div class="col-md-8">
 					      <div class="card-body">
 					        <h5 class="card-title">El Garda El Mehdi</h5>
-					        <p class="card-text">
+					        <p class="card-text" style="color: white">
 					        	20 ans <br>
 									<i class="fas fa-map-marker-alt"></i> Safi - Maroc <br>
 									<i class="fas fa-phone"></i> 06 21 64 26 43 <br>
@@ -84,71 +89,81 @@
 		    </tr>
 		</table>
 	</div>
-	<div class="firs">
-		<table class="table table-dark rounded">
-			<thead class="thead-light">
-			    <tr>
-			      <th colspan="2"><p class="text-center h3">FORMATION</p></th>
-			    </tr>
-		    </thead>
-		    <tr>
-		      <td>
-				<p>
-	  				<p class="date">2017-2019 <br>                
-					Safi - Maroc</p>
-	  			</p>
-		      </td>
-		      <td> 
-	  			<p class="text-center descri">Diplôme Technicien spécialisé en Développement  informatique </p>
-			  </td>
-			</tr>
-			<tr>
-		      <td>
-					<p class="date">2016-2017 <br>
-				    Chemaia - Maroc</p>	
-	  		  </td>
-	  		  <td>
-	  		  	<p class="text-center descri">Baccalauréat option Sciences Physiques (mention ‘Assez Bien’) </p>
-	  		  </td>
-		    </tr>
-		</table>
-	</div>
-	<div class="firs">
-		<table class="table table-dark rounded">
-			<thead class="thead-light">
-			    <tr>
-			      <th colspan="2"><p class="text-center h3">EXPERIENCES PROFESSIONNELLES </p></th>
-			    </tr>
-		    </thead>
-		    <tr>
-		      <td>
-				<p>
-	  				<p class="date">
-	  						Mars 2019(1 mois) <br>     
-							Safi - Maroc
-	  				</p>
-	  			</p>
-		      </td>
-		      <td> 
-	  			<p class="text-center descri">Groupe Office Chérifien des Phosphates (OCP), Service informatique (Stage)</p>
-	  					<p class="text-center desp">>>Création d'une application desktop "Demande de Reforme"</p>
-			  </td>
-			</tr>
-			<tr>
-		      <td>
-					<p class="date">
-	  						Juillet 2019(1 mois)  <br> 
-							Safi - Maroc 
-	  				</p>
-	  		  </td>
-	  		  <td>
-	  		  	<p class="text-center descri">Societe DevoSoft (Stage)</p>
-	  			<p class="text-center desp">>>Apprendre Photoshop et PHP </p>
-	  		  </td>
-		    </tr>
-		</table>
-	</div>
-	
+	<section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-6 col-12">
+                  <h2 class="mb-4">FORMATION</h2>
+
+                    <div class="timeline">
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>2 ans</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>
+                                	<span>Développement  Informatique (Diplôme Technicien Spécialisé)</span><br><small>2017-2019</small>
+                                </h3>
+                                <p>Safi - Maroc</p>
+                            </div>
+                        </div>
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>1 an</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>
+                                	<span>Baccalauréat option Sciences Physiques</span><br><small>2016-2017</small></h3>
+                                <p>Chemaia - Maroc</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-12">
+                  <h3 class="mb-4 mobile-mt-2">EXPERIENCES PROFESSIONNELLES</h3>
+
+                    <div class="timeline">
+
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>1 mois</span>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>
+                                	<span>OCP Maroc, Service informatique</span><br>
+                                	<small>Safi - Maroc</small><br> <small>Mars 2019</small>
+                                </h3>
+                                <p>Création d'une application desktop "Demande de Reforme"</p>
+                            </div>
+                        </div>
+                        
+                        <div class="timeline-wrapper">
+                            <div class="timeline-yr">
+                                <span>1 mois</span>
+                            </div>
+                            <div class="timeline-info">
+                            	<h3>
+                                	<span>Societe DevoSoft</span><br>
+                                	<small>Safi - Maroc</small><br> <small>Juillet 2019</small>
+                                </h3>
+                                <p>
+                                	Apprendre Photoshop et PHP <br>
+                                	création d'un site web dynamique(PHP + MYSQL)
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
 	<div class="firs">
 		<table class="table table-dark rounded">
 			<thead class="thead-light">
@@ -158,7 +173,7 @@
 		    </thead>
 		    <tr>
 		    	<th colspan="2">
-	  		  	<p class="text-center descri">
+	  		  	<p class="text-center descri" style="color: white">
 	  		  		HTML5  &nbsp &nbsp  CSS3  &nbsp &nbsp  BOOTSTRAP  &nbsp &nbsp  JavaScript
 	  		  		&nbsp &nbsp  C#   &nbsp &nbsp  Asp.net   &nbsp &nbsp  Ado.net &nbsp &nbsp JAVA
 	  		  		&nbsp &nbsp  PHP    &nbsp &nbsp  SQL (SQLserver)  &nbsp &nbsp  ionic  &nbsp &nbsp  AndroidStudio
@@ -167,50 +182,25 @@
 		    </tr>
 		</table>
 	</div>
-
-	<div class="firs">
-		<table class="table table-dark rounded">
-			<thead class="thead-light">
-			    <tr>
-			      <th colspan="4"><p class="text-center h3">LANGUES</p></th>
-			    </tr>
-		    </thead>
-		    <tr>
-		    	<td><p class="descri text-center">Français : Bien</p></td>
-		    </tr>
-		    <tr>
-		    	<td><p class="descri text-center">Anglais : Courant</p></td>
-		    </tr>
-		    <tr>
-		    	<td><p class="descri text-center">Espagnol : notion de base</p></td>
-		    </tr>
-		    <tr>
-		    	<td><p class="descri text-center">Arabe : Maternelle</p></td>
-		    </tr>
-		</table>
-	</div>
-
-		<div class="firs">
-		<table class="table table-dark rounded">
-			<thead class="thead-light">
-			    <tr>
-			      <th colspan="2"><p class="text-center h3">CENTRES D’INTERETS</p></th>
-			    </tr>
-		    </thead>
-		    <tr>
-		    	<th colspan="2">
-	  		  	<p class="text-center descri">+ Photographe &nbsp &nbsp	+ Music </p>
-	  		  </th>
-		    </tr>
-		</table>
-	</div>
-	<div class="titre" id="lesprjt"><h3 >Les Projets</h3></div>
+	<div class="col-lg-7 col-md-12 col-12 d-flex align-items-center" style="margin-left: 30%;">
+                    <div class="about-text">
+                        <h1 class="animated animated-text">
+                            <span class="mr-2">LANGUES : </span>
+                                <div class="animated-info">
+                                    <span class="animated-item">Français : Bien</span>
+                                    <span class="animated-item">Anglais : Courant</span>
+                                    <span class="animated-item">Arabe : Maternelle</span>
+                                </div>
+                        </h1>
+                    </div>
+    </div>
+<div class="titre" id="lesprjt"><h3 >Les Projets</h3></div>
 		
 	<!-- debut2-->
-	<div class="titre2" id="appmob"><h3>2- Applications Mobile <i class="fab fa-android"></i></h3></div>
+	<div class="titre2" id="appmob"><h3 style="color: white">2- Applications Mobile <i class="fab fa-android"></i></h3></div>
 
 		<div class="container">
-		  <div class="mySlides card bg-info">
+		  <div class="mySlides card" style="background: linear-gradient(to right, #e6fff7, #ffffcc);">
 				<iframe class="frame card-img-top rounded img-fluid img-thumbnail" src="https://www.youtube.com/embed/_JIstLxg0x0" name="lien"  allowfullscreen></iframe>
 				<div class="card-body text-center">
 					<div class="h6 text-danger">1 / 2</div>
@@ -218,7 +208,7 @@
 				    <a href="https://github.com/mehdi99garda/AndroidStudio"target="l"class="btn btn-dark">Ce Projet dans GitHub</a>
 				  </div>
 		  </div>
-		  <div class="mySlides card bg-info">
+		  <div class="mySlides card" style="background: linear-gradient(to right, #e6fff7, #ffffcc);">
 		 		<iframe class="frame rounded img-fluid img-thumbnail" src="https://www.youtube.com/embed/xwrbD5TKEG0" name="lien"  allowfullscreen></iframe>
 		        <div class="card-body text-center">
 					<div class="h6 text-danger">2 / 2</div>
@@ -233,7 +223,7 @@
 	<!-- fin2  -->
 
 	<!-- debut3-->
-	<div class="titre2" id="siteweb"><h3>3- Site Web </h3></div>
+	<div class="titre2" id="siteweb"><h3 style="color: white">3- Site Web </h3></div>
 
 		<div class="siteweb"><a href="#" >
 			<button type="button" class="btn btn-dark">Ce Site web</button></a> &nbsp
@@ -243,7 +233,7 @@
 	<!-- fin3-->
 
 	<!-- debut1-->
-	 <div class="titre2" id="appdesk"><h3>1- Applications Desktop <i class="fas fa-desktop"></i></h3></div>
+	 <div class="titre2" id="appdesk"><h3 style="color: white">1- Applications Desktop <i class="fas fa-desktop"></i></h3></div>
 	 	<div class="siteweb"><a href="all/DR.html" target="sitt"><button type="button" class="btn btn-dark">Demande De Reforme</button></a>
 	 	<a href="all/qcm.html" target="sitt"><button type="button" class="btn btn-dark">  QCM</button></a></div>
 	 <div class="text-center" style="margin-left: 15%; margin-right: 15%;">
